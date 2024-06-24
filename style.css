@@ -1,0 +1,97 @@
+.container{
+    margin-bottom: 100px;
+}
+
+/* Header starts here */
+.nav-item a{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+}
+/* Header ends here */
+
+
+/* Carousel starts here */
+.slide_bg{
+    background-color: #FCEAE8;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.price{
+    color: #FF136F;
+}
+.buy_now_button{
+    background-image: linear-gradient(to bottom, #fc287d 0%, #ff0062 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #FF136F;
+}
+.buy_now_button:hover{
+    background: #fff;
+    color: #FF136F;
+    transition-duration: .5s;
+}
+/* Carousel ends here */
+
+
+/* Catagory section starts here */
+.cat_1, .cat_2, .cat_3{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cat_1{
+    background-color:#FF136F;
+}
+.cat_2{
+    background-color: rgb(8, 111, 196);
+}
+.cat_3{
+    background-color: darkorange;
+}
+/* Catagory section ends here */
+
+
+/* Shoes section starts here */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(184, 184, 184);
+}
+.card-footer{
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+/* Shoes section ends here */
+
+
+/* Subscribe section starts here */
+.subscribe{
+    width: 400px; 
+    padding: 50px 0;
+}
+.subscribe h5{
+    color: #6d6d6d;
+}
+.subscribe input::placeholder{
+    color: #c0c0c0;
+}
+/* Subscribe section starts here */
+
+
+/* Footer section starts here */
+footer p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+footer span{
+    color: #ff0062;
+}
+/* Footer section ends here */
